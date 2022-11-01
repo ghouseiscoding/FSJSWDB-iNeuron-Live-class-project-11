@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 90vw;
+    /* max-width: 1366px; */
+    margin: auto;
+}
+
+/* #################### NAVBAR ####################### */
+
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.logo{
+    filter: invert(1);
+    margin: 50px 20px 0;
+    width: 6rem;
+}
+
+.navMenu{
+    margin: 50px 20px 0;
+}
+
+.navItem{
+    margin: 20px;
+    text-decoration: none;
+    color: #758283;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.navItemSelected{
+    color: #000;
+}
+
+.navBtn{
+    color: #09BEF8;
+    border: 1px solid #09BEF8;
+    border-radius: 10px;
+    padding: 17px 30px;
+    /* background-image: linear-gradient(#08B6F6, #0563EA); */
+    border-image-slice: 1;
+
+}
+
+
+/* ###################### HOSTING BANNER #################### */
+
+
+.hostingBanner{
+    display: flex;
+    margin: 0 20px 100px;
+    justify-content: space-between;
+}
+
+.hostingBannerHeading{
+    font-size: 3.2rem;
+    width: 10.5em;
+    margin: 0 0 20px 0;
+}
+
+.hostingBannerDetails{
+    font-size: 1rem;
+    color: #758283;
+    width: 34em;
+    line-height: 2em;
+    margin: 0 0 20px 0;
+}
+
+.hostingBannerBtn{
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid #09BEF8;
+    border-radius: 10px;
+    padding: 15px 30px;
+    background-image: linear-gradient(#08B6F6, #0563EA);
+
+}
+
+.hostingBannerImg{
+    width: 35em;
+}
+
+
+/* ###############  TESTING BANNER ################ */
+
+.testingBanner{
+    display: flex;
+    margin: 0 20px 100px;
+    justify-content: space-between;
+}
+
+.testingBannerImg{
+    width: 35em;
+}
+
+.testingBannerHeading{
+    font-size: 3rem;
+    /* width: 10.5em; */
+    margin: 0 0 20px 0;
+}
+
+.testingBannerDetails{
+    font-size: 1rem;
+    color: #758283;
+    width: 34em;
+    line-height: 2em;
+    margin: 0 0 20px 0;
+}
+
+.testingBannerBtn{
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid #09BEF8;
+    border-radius: 10px;
+    padding: 15px 50px;
+    background-image: linear-gradient(#08B6F6, #0563EA);
+}
+
+.testingBannerDesc{
+    margin: 0 0 0 50px
+}
+
+
+
+/* ################ TECHNICAL SUPPORT BANNER #################### */
+
+.technicalSupportBanner{
+    display: flex;
+    margin: 0 20px 100px;
+    justify-content: space-between;
+}
+
+.technicalSupportBannerImg{
+    width: 40em;
+}
+
+.technicalSupportBannerDesc{
+    margin-top: 150px;
+}
+
+.technicalSupportBannerHeading{
+    font-size: 3rem;
+    /* width: 10.5em; */
+    margin: 0 0 20px 0;
+}
+
+.technicalSupportBannerDetails{
+    font-size: 1rem;
+    color: #758283;
+    width: 35em;
+    line-height: 2em;
+    margin: 0 0 20px 0;
+}
+
+.technicalSupportBannerBtn{
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid #09BEF8;
+    border-radius: 10px;
+    padding: 15px 50px;
+    background-image: linear-gradient(#08B6F6, #0563EA);
+}
+
+
+/* ##################### SERVICES BANNER ########################## */
+
+
+.servicesBanner{
+    margin: 0 20px 100px;
+}
+
+.servicesBannerDesc{
+    display: flex;
+    justify-content: space-between;
+}
+
+.servicesBannerHeading{
+    font-size: 3rem;
+    margin: 0 0 20px 0;
+    width: 10em;
+}
+
+.servicesBannerDetails{
+    font-size: 1rem;
+    color: #758283;
+    line-height: 2em;
+    margin: 25px 0 0;
+    width: 35em;
+}
+
+.servicesWeOffer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 40px
+}
+
+.listOfServices{
+    width: 22em;
+}
+
+.serviceIcon{
+    margin: 20px 0;
+}
+
+.serviceName{
+    margin: 20px 0;
+}
+
+.serviceDetails{
+    margin: 20px 0;
+    font-size: .9rem;
+    color: #758283;
+    line-height: 2em;
+}
