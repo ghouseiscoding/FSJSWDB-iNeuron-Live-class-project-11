@@ -7,8 +7,8 @@
 }
 
 body{
-    width: 90vw;
-    /* max-width: 1366px; */
+    /* width: 90vw; */
+    max-width: 90vw;
     margin: auto;
 }
 
@@ -226,4 +226,80 @@ body{
     font-size: .9rem;
     color: #758283;
     line-height: 2em;
+}
+
+
+/* ################# PRICING CARDS BANNER #################### */
+
+
+.pricingCardBanner{
+    background-image: linear-gradient(to bottom, #08B6F6, #0563EA);
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+.pricingCardBannerHeading{
+    font-size: 3rem;
+    color: #fff;
+    padding: 50px;
+}
+
+
+.pricingCardSection{
+    display: flex;    
+    text-align: center;
+}
+
+.pricingCards{
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    width: 50em;
+}
+
+.pricingCardTop{
+    text-align: left;
+    margin: 40px 30px;
+}
+
+.pricingCardHeading{
+
+}
+
+.pricingCardSubHeading{
+
+}
+
+.pricingCardMiddle{
+    text-align: left;
+    margin: 30px;
+}
+
+.pricingCardFeatures{
+    line-height: 3rem;
+    font-weight: 600;
+    color: #2A3859;
+    font-size: 1.1rem;
+    list-style: url('/Images/greenchecks.svg');
+}
+
+.pricingCardBottom{
+
+}
+
+.planPrice{
+
+}
+
+.planDuration{
+
+}
+
+.cancelAnytime{
+
+}
+
+.purchaseButton{
+    
 }
