@@ -395,3 +395,54 @@ body{
     border-radius: 50%;
     margin-right: 20px;
 }
+
+
+/* #################### REGISTER NOW BANNER ##################### */
+
+.registerNowBanner{
+    background-image: linear-gradient(to bottom, #08B6F6, #0563EA);
+    text-align: center;
+    padding-bottom: 50px;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    color: #ffffff;
+}
+
+.registerNowInnerBanner{
+    margin: auto;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.registerNowBannerDetails{
+    width: 600px;
+    margin: 50px 0;
+}
+
+.registerNowHeading{
+    font-size: 3rem;
+    /* padding: 50px 0 30px 30px; */
+}
+
+.registerNowBannerDesc{
+    width: 500px;
+    margin: 10px 0 0 50px;
+    text-align: left;
+}
+
+.registerNowBtn{
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 17px 30px;
+    height: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    background-color: transparent;
+}
